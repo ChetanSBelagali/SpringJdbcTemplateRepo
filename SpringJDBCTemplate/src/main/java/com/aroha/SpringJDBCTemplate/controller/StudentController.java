@@ -43,5 +43,10 @@ public class StudentController {
 		studentDataObj.setData(studentData);
 		return new ResponseEntity<>(studentDataObj, HttpStatus.OK);
 	}
+	
+	public String hello(){
+		return "Hello";
+		
+	}
 
 }
